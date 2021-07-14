@@ -52,7 +52,6 @@ public class BasicApp {
 
     /*
      * 连接DM数据库
-     *
      * @throws SQLException 异常
      */
     public void connect() throws SQLException {
@@ -66,7 +65,6 @@ public class BasicApp {
     }
     /*
      * 关闭连接
-     *
      * @throws SQLException 异常
      */
 
@@ -81,7 +79,6 @@ public class BasicApp {
 
     /*
      * 往产品信息表插入数据
-     *
      * @throws SQLException 异常
      */
     public void insertTable() throws SQLException {
@@ -130,7 +127,6 @@ public class BasicApp {
     }
     /*
      * 查询产品信息表
-     *
      * @throws SQLException 异常
      */
 
