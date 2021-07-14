@@ -25,6 +25,8 @@
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis</artifactId>
             <version>3.3.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/mybatis-3.3.0.jar</systemPath>
         </dependency>
     </dependencies>
     <build>
