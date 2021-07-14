@@ -21,6 +21,11 @@
             <scope>system</scope>
             <systemPath>${project.basedir}/lib/DmJdbcDriver18.jar</systemPath>
         </dependency>
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>3.3.0</version>
+        </dependency>
     </dependencies>
     <build>
         <resources>

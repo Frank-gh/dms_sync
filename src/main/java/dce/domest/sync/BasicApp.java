@@ -215,12 +215,12 @@ public class BasicApp {
         cstmt.setInt(1, 1);
         cstmt.setString(2, "红楼梦（上）");
         // 执行语句
-        cstmt.execute(); // 关闭语句
+        cstmt.execute();
+        // 关闭语句
         cstmt.close();
     }
     /*
      * 显示结果集
-     *
      * @param rs 结果集对象 * @throws SQLException 异常
      */
 
@@ -301,7 +301,8 @@ public class BasicApp {
             // 加载驱动程序
             basicApp.loadJdbcDriver();
             // 连接DM数据库
-            basicApp.connect(); // 插入数据
+            basicApp.connect();
+            // 插入数据
             System.out.println("--- 插入产品信息 ---");
             basicApp.insertTable(); // 查询含有大字段的产品信息
             System.out.println("--- 显示插入结果 ---");
