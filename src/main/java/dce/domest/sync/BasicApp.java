@@ -304,21 +304,29 @@ public class BasicApp {
             basicApp.connect();
             // 插入数据
             System.out.println("--- 插入产品信息 ---");
-            basicApp.insertTable(); // 查询含有大字段的产品信息
+            basicApp.insertTable();
+            // 查询含有大字段的产品信息
             System.out.println("--- 显示插入结果 ---");
-            basicApp.queryProduct(); // 在修改前查询产品信息表
+            basicApp.queryProduct();
+            // 在修改前查询产品信息表
             System.out.println("--- 在修改前查询产品信息 ---");
-            basicApp.queryTable(); // 修改产品信息表
+            basicApp.queryTable();
+            // 修改产品信息表
             System.out.println("--- 修改产品信息 ---");
-            basicApp.updateTable(); // 在修改后查询产品信息表
+            basicApp.updateTable();
+            // 在修改后查询产品信息表
             System.out.println("--- 在修改后查询产品信息 ---");
-            basicApp.queryTable(); // 删除产品信息表
+            basicApp.queryTable();
+            // 删除产品信息表
             System.out.println("--- 删除产品信息 ---");
-            basicApp.deleteTable(); // 在删除后查询产品信息表
+            basicApp.deleteTable();
+            // 在删除后查询产品信息表
             System.out.println("--- 在删除后查询产品信息 ---");
-            basicApp.queryTable(); // 调用存储过程修改产品信息表
+            basicApp.queryTable();
+            // 调用存储过程修改产品信息表
             System.out.println("--- 调用存储过程修改产品信息 ---");
-            basicApp.updateProduct(); // 在存储过程更新后查询产品信息表
+            basicApp.updateProduct();
+            // 在存储过程更新后查询产品信息表
             System.out.println("--- 调用存储过程后查询产品信息 ---");
             basicApp.queryTable();
             // 关闭连接

@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact name="dm_sync:jar">
+    <output-path>$PROJECT_DIR$/bin</output-path>
+    <root id="root">
+      <element id="archive" name="dm_sync.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="dm_sync" />
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/lib/DmJdbcDriver18.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/mybatis-3.3.0.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

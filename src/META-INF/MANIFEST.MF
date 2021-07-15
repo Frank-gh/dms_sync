@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: dce.domest.sync.BasicApp
+Class-Path: mybatis-3.3.0.jar DmJdbcDriver18.jar
+
